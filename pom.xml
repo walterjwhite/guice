@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+	<parent>
+		<groupId>com.walterjwhite</groupId>
+		<artifactId>infrastructure</artifactId>
+		<version>0.0.15-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.walterjwhite.infrastructure</groupId>
+    <artifactId>google-guice</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>google-guice</name>
+    <description>google-guice</description>
+    <url>https://github.com/walterjwhite/guice</url>
+
+    <modules>
+        <module>core</module>
+        <module>modules</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.walterjwhite.infrastructure</groupId>
+            <artifactId>logging</artifactId>
+            <version>0.0.15-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <scm>
+        <connection>scm:git:ssh://git@localhost:/projects/active/github.com/java/infrastructure/guice.git</connection>
+        <developerConnection>scm:git:ssh://git@localhost:/projects/active/github.com/java/infrastructure/guice.git</developerConnection>
+        <url>https://github.com/walterjwhite/guice.git</url>
+    </scm>
+</project>
