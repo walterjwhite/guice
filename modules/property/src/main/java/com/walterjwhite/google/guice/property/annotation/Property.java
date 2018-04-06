@@ -1,6 +1,7 @@
-package com.walterjwhite.google.guice.property.property;
+package com.walterjwhite.google.guice.property.annotation;
 
 import com.google.inject.BindingAnnotation;
+import com.walterjwhite.google.guice.property.property.GuiceProperty;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -12,6 +12,10 @@ public class PropertyValuePair {
     this.value = value;
   }
 
+  public PropertyValuePair(Class<? extends GuiceProperty> propertyClass) {
+    this(propertyClass, null);
+  }
+
   public Class<? extends GuiceProperty> getPropertyClass() {
     return propertyClass;
   }

@@ -6,6 +6,7 @@ import com.walterjwhite.google.guice.cli.service.AbstractCommandLineHandler;
 import com.walterjwhite.google.guice.cli.service.CommandLineDaemon;
 import com.walterjwhite.google.guice.cli.service.CommandLineDaemonService;
 import com.walterjwhite.google.guice.cli.util.CLIUtil;
+import com.walterjwhite.google.guice.cli.util.GuiceCommandLineHelper;
 import com.walterjwhite.google.guice.logging.AbstractLoggingModule;
 import com.walterjwhite.google.guice.property.property.GuiceProperty;
 import java.util.Map;
@@ -39,6 +40,7 @@ public abstract class AbstractCommandLineModule extends AbstractLoggingModule {
   protected void configure() {
     setCommandLineProperties(
         CLIUtil.getCommandLineProperties(propertyManager.getPropertyKeys(), arguments));
+    bind(Reflections.class).toInstance(GuiceCommandLineHelper.REFLECTIONS_INSTANCE);
 
     super.configure();
 

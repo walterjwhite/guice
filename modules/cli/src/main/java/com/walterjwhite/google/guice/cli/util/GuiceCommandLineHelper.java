@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 public class GuiceCommandLineHelper {
   private static final Logger LOGGER = LoggerFactory.getLogger(GuiceCommandLineHelper.class);
 
-  private static final Reflections REFLECTIONS_INSTANCE = Reflections.collect();
+  public static final Reflections REFLECTIONS_INSTANCE = Reflections.collect();
   private static AbstractCommandLineModule COMMAND_LINE_MODULE;
 
   private GuiceCommandLineHelper() {}
@@ -21,7 +21,6 @@ public class GuiceCommandLineHelper {
     try {
       COMMAND_LINE_MODULE = getCommandLineModule(arguments);
       GuiceHelper.addModule(COMMAND_LINE_MODULE);
-      // TODO: add support for setting the stage to production here
       GuiceHelper.setup(COMMAND_LINE_MODULE.getApplicationEnvironment());
 
       COMMAND_LINE_MODULE.doRun(/*arguments*/ );

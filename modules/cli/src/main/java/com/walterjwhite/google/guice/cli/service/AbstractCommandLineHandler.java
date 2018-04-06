@@ -1,7 +1,7 @@
 package com.walterjwhite.google.guice.cli.service;
 
 import com.walterjwhite.google.guice.cli.property.CommandLineHandlerShutdownTimeout;
-import com.walterjwhite.google.guice.property.property.Property;
+import com.walterjwhite.google.guice.property.annotation.Property;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

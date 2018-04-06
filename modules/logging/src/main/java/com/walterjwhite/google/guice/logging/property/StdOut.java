@@ -1,6 +1,6 @@
 package com.walterjwhite.google.guice.logging.property;
 
-import com.walterjwhite.google.guice.property.property.DefaultValue;
+import com.walterjwhite.google.guice.property.annotation.DefaultValue;
 import com.walterjwhite.google.guice.property.property.GuiceProperty;
 
 public interface StdOut extends GuiceProperty {

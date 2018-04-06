@@ -1,5 +1,6 @@
 package com.walterjwhite.google.guice.property.util;
 
+import com.walterjwhite.google.guice.property.annotation.DefaultValue;
 import com.walterjwhite.google.guice.property.property.*;
 import java.lang.reflect.Field;
 import java.net.URL;

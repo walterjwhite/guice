@@ -1,6 +1,6 @@
 package com.walterjwhite.google.guice.resilience4j.circuitbreaker.provider;
 
-import com.walterjwhite.google.guice.property.property.Property;
+import com.walterjwhite.google.guice.property.annotation.Property;
 import com.walterjwhite.google.guice.resilience4j.circuitbreaker.property.DurationInOpenState;
 import com.walterjwhite.google.guice.resilience4j.circuitbreaker.property.FailureRateThreshold;
 import com.walterjwhite.google.guice.resilience4j.circuitbreaker.property.RingBufferSizeInClosedState;

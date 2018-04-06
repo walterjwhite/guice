@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.walterjwhite.infrastructure.google-guice</groupId>
-        <artifactId>modules</artifactId>
-        <version>0.0.15-SNAPSHOT</version>
-    </parent>
-
-    <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
-    <artifactId>property-test</artifactId>
-    <packaging>jar</packaging>
-    <name>google - guice - property-test</name>
-    <description>
-        google-guice-property-test
-    </description>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
-            <artifactId>logging</artifactId>
-            <version>0.0.15-SNAPSHOT</version>
-        </dependency>
-
-        <!-- This is required by the reflections API -->
-        <dependency>
-            <groupId>dom4j</groupId>
-            <artifactId>dom4j</artifactId>
-            <version>1.6.1</version>
-        </dependency>
-    </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.infrastructure.google-guice</groupId>
+    <artifactId>modules</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
+  <artifactId>property-test</artifactId>
+  <packaging>jar</packaging>
+  <name>google - guice - property-test</name>
+  <description>google-guice-property-test</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
+      <artifactId>logging</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.walterjwhite.infrastructure</groupId>
+      <artifactId>logging</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+    </dependency>
+    <!-- This is required by the reflections API -->
+    <dependency>
+      <groupId>dom4j</groupId>
+      <artifactId>dom4j</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+  </dependencies>
 </project>

@@ -1,6 +1,6 @@
 package com.walterjwhite.google.guice.resilience4j.bulkhead.provider;
 
-import com.walterjwhite.google.guice.property.property.Property;
+import com.walterjwhite.google.guice.property.annotation.Property;
 import com.walterjwhite.google.guice.resilience4j.bulkhead.property.MaxConcurrentCalls;
 import com.walterjwhite.google.guice.resilience4j.bulkhead.property.MaxWaitTime;
 import io.github.resilience4j.bulkhead.BulkheadConfig;

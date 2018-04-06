@@ -3,7 +3,7 @@ package com.walterjwhite.google.guice.executor.provider;
 import com.google.common.eventbus.EventBus;
 import com.walterjwhite.google.guice.annotation.EventBusOnly;
 import com.walterjwhite.google.guice.executor.property.EventBusName;
-import com.walterjwhite.google.guice.property.property.Property;
+import com.walterjwhite.google.guice.property.annotation.Property;
 import java.util.concurrent.ExecutorService;
 import javax.inject.Inject;
 import javax.inject.Provider;

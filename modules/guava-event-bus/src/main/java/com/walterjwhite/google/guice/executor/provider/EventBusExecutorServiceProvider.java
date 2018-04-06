@@ -3,7 +3,7 @@ package com.walterjwhite.google.guice.executor.provider;
 import com.google.common.util.concurrent.ListeningScheduledExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
 import com.walterjwhite.google.guice.executor.property.NumberOfEventBusThreads;
-import com.walterjwhite.google.guice.property.property.Property;
+import com.walterjwhite.google.guice.property.annotation.Property;
 import java.util.concurrent.Executors;
 import javax.inject.Inject;
 import javax.inject.Provider;

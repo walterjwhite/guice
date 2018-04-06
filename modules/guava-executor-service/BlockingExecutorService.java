@@ -3,7 +3,7 @@ package com.walterjwhite.google.guice.executor.provider;
 import com.google.common.util.concurrent.ListeningScheduledExecutorService;
 import com.google.common.util.concurrent.RateLimiter;
 import com.walterjwhite.google.guice.executor.property.NumberOfExecutorServiceThreads;
-import com.walterjwhite.google.guice.property.property.Property;
+import com.walterjwhite.google.guice.property.annotation.Property;
 import java.util.*;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
@@ -11,6 +11,8 @@ import javax.inject.Inject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+// TODO: use a blocking queue instead
+@Deprecated
 public class BlockingExecutorService {
   private static final Logger LOGGER = LoggerFactory.getLogger(BlockingExecutorService.class);
 

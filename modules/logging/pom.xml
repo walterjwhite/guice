@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.walterjwhite.infrastructure.google-guice</groupId>
-        <artifactId>modules</artifactId>
-        <version>0.0.15-SNAPSHOT</version>
-    </parent>
-
-    <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
-    <artifactId>logging</artifactId>
-    <packaging>jar</packaging>
-    <name>google - guice - logging</name>
-    <description>
-        google-guice-logging
-    </description>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
-            <artifactId>property</artifactId>
-            <version>0.0.15-SNAPSHOT</version>
-        </dependency>
-
-        <!-- this needs to be included since we marked it as provided earlier -->
-        <dependency>
-            <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>0.0.15-SNAPSHOT</version>
-            <type>pom</type>
-        </dependency>
-    </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.infrastructure.google-guice</groupId>
+    <artifactId>modules</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
+  <artifactId>logging</artifactId>
+  <packaging>jar</packaging>
+  <name>google - guice - logging</name>
+  <description>google-guice-logging</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>
+      <artifactId>property</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+    </dependency>
+    <!-- this needs to be included since we marked it as provided earlier -->
+    <dependency>
+      <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+      <type>pom</type>
+    </dependency>
+  </dependencies>
 </project>

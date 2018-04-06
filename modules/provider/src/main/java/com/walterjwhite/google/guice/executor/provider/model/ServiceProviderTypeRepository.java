@@ -1,9 +1,7 @@
-package com.walterjwhite.google.guice.executor.provider;
+package com.walterjwhite.google.guice.executor.provider.model;
 
 import com.walterjwhite.datastore.criteria.AbstractRepository;
 import com.walterjwhite.datastore.criteria.CriteriaQueryConfiguration;
-import com.walterjwhite.google.guice.executor.provider.model.ServiceProviderType;
-import com.walterjwhite.google.guice.executor.provider.model.ServiceProviderType_;
 import javax.persistence.EntityManager;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.Predicate;

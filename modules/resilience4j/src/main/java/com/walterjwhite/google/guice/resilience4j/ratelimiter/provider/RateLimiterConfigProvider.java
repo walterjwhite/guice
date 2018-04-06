@@ -1,6 +1,6 @@
 package com.walterjwhite.google.guice.resilience4j.ratelimiter.provider;
 
-import com.walterjwhite.google.guice.property.property.Property;
+import com.walterjwhite.google.guice.property.annotation.Property;
 import com.walterjwhite.google.guice.resilience4j.ratelimiter.property.LimitForPeriod;
 import com.walterjwhite.google.guice.resilience4j.ratelimiter.property.LimitRefreshPeriod;
 import com.walterjwhite.google.guice.resilience4j.ratelimiter.property.TimeoutDuration;

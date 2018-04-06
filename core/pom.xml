@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.walterjwhite.infrastructure</groupId>
-        <artifactId>google-guice</artifactId>
-        <version>0.0.15-SNAPSHOT</version>
-    </parent>
-
-    <groupId>com.walterjwhite.infrastructure.google-guice</groupId>
-    <artifactId>core</artifactId>
-    <packaging>jar</packaging>
-    <name>google - guice - core</name>
-    <description>
-        google guice helper
-    </description>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-            <artifactId>google-guice</artifactId>
-            <version>0.0.15-SNAPSHOT</version>
-            <type>pom</type>
-        </dependency>
-
-        <!--<dependency>-->
-            <!--<groupId>com.walterjwhite.infrastructure.dependencies</groupId>-->
-            <!--<artifactId>netflix-governator</artifactId>-->
-            <!--<version>0.1-SNAPSHOT</version>-->
-            <!--<type>pom</type>-->
-        <!--</dependency>-->
-    </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.infrastructure</groupId>
+    <artifactId>google-guice</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.infrastructure.google-guice</groupId>
+  <artifactId>core</artifactId>
+  <packaging>jar</packaging>
+  <name>google - guice - core</name>
+  <description>google guice helper</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+      <artifactId>google-guice</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+      <type>pom</type>
+    </dependency>
+    <!--<dependency>-->
+    <!--<groupId>com.walterjwhite.infrastructure.dependencies</groupId>-->
+    <!--<artifactId>netflix-governator</artifactId>-->
+    <!--<version>0.1-SNAPSHOT</version>-->
+    <!--<type>pom</type>-->
+    <!--</dependency>-->
+  </dependencies>
 </project>
